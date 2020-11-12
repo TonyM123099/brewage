@@ -1,0 +1,13 @@
+* {
+    background-color: black;
+    font-family: 'Raleway', normal;
+    font-size: 1vw;
+    color: darkcyan;
+}
+
+.page-title {
+    margin: 1vw;
+    font-size: 5vw;
+    text-align: center;
+
+}
