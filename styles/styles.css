@@ -1,19 +1,42 @@
+/* all items */
 * {
-    background-image: linear-gradient(to right, lightblue, pink );
     font-family: 'Raleway', normal;
-    font-size: 1vw;
     color: black;
 }
 
-.page-title {
-    margin: 1vw;
-    font-size: 5vw;
-    text-align: center;
+/* header */
+.head {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 4.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, lightblue, pink );
+    border-bottom: 1px solid black;
+}
+
+/* body */
+.home {
+    margin-top: 6vw;
+    background-image: linear-gradient(to right, lightblue, pink );
+}
+
+/* brewage text */
+#site-title {
+    font-size: 2.25vw;
     transition: transform .5s;
 }
 
-.page-title:hover {
-    transform: scale(1.25);
-    color: white;
-    
+/* site link */
+a {
+    text-decoration: none;
+}
+
+/* brewage text on hover */
+#site-title:hover {
+    transform: scale(1.10);
+    color: white;    
 }
