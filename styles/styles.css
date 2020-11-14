@@ -1,13 +1,19 @@
 * {
-    background-color: black;
+    background-image: linear-gradient(to right, lightblue, pink );
     font-family: 'Raleway', normal;
     font-size: 1vw;
-    color: darkcyan;
+    color: black;
 }
 
 .page-title {
     margin: 1vw;
     font-size: 5vw;
     text-align: center;
+    transition: transform .5s;
+}
 
+.page-title:hover {
+    transform: scale(1.25);
+    color: white;
+    
 }
